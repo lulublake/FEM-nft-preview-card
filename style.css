@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+    padding: 5%;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.row{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 8px 15px hsla(212, 70%, 8%, 0.292), 0 15px 5px 30px hsla(218, 56%, 14%, 0.16);
+}
+
+
+/************** IMAGE SECTION ***********/
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+}
+.eth-img{
+    max-width: 300px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    max-width: 300px;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    height: 300px;
+    width: 100%;
+    top: 25px;
+    bottom: 0;
+    left: 25px;
+    right: 25px;
+    border-radius: 10px;
+}
+.overlay:hover {
+    opacity: 0.5;
+}
+img, svg{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.avatar{
+    max-width: 40px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+/************** TEXT SECTION ***********/
+.text{
+    /*  */
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+    padding: 0 0 25px;
+    font-size: 18px;
+}
+h4{
+    color: white;
+    margin-bottom: 15px;
+}
+h4:hover{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    margin: 25px 0 15px;
+}
+h6{
+    margin-bottom: 0;
+}
+.extras{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.first-eth{
+    margin-right: 85px;
+    color: hsl(178, 100%, 50%);
+}
+.jules{
+    color: white;
+}
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+/************** ATTRIBUTION SECTION ***********/
+.attribution{
+    font-size: 11px; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
