@@ -34,9 +34,7 @@ body{
     height: 300px;
     width: 100%;
     top: 25px;
-    bottom: 0;
     left: 25px;
-    right: 25px;
     border-radius: 10px;
 }
 .overlay:hover {
